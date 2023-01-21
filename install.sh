@@ -11,8 +11,7 @@ passwall)
 	opkg install luci-i18n-base-zh-cn luci-app-passwall  luci-compat luci-lib-ipkg
 	;;
 openclash)
-	opkg install luci-app-openclash_0.45.78-228_all.ipk luci-compat luci-lib-ipkg wget-ssl coreutils-nohup bash iptables curl ca-certificates ipset ip-full iptables-mod-tproxy iptables-mod-extra libcap libcap-bin ruby ruby-yaml kmod-tun luci-compat libcurl4
-	;;
+	wget -qO- https://cdn.jsdelivr.net/gh/tiancaiV/Install-Openclash-for-MT2500/install_clash.sh | sh
 *)
 	opkg install luci-i18n-base-zh-cn luci-app-passwall  luci-app-ssr-plus  luci-compat luci-lib-ipkg
 	wget -qO- https://cdn.jsdelivr.net/gh/tiancaiV/Install-Openclash-for-MT2500/install_clash.sh | sh

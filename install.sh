@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 sed -i '/custom_feeds/d' /etc/opkg/customfeeds.conf
 echo "src/gz custom_feeds  https://op.supes.top/packages/aarch64_cortex-a53" >>/etc/opkg/customfeeds.conf
 opkg update

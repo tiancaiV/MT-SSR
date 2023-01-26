@@ -28,3 +28,6 @@ common)
 	wget -qO- https://cdn.jsdelivr.net/gh/tiancaiV/Install-Openclash-for-MT2500/install.sh | sh
 	;;
 esac
+
+
+#wget -qO- https://cdn.jsdelivr.net/gh/tiancaiV/MT-SSR/install.sh | sh -s ssr-plus

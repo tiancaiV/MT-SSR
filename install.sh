@@ -4,7 +4,7 @@ echo "src/gz custom_feeds https://op.supes.top/packages/aarch64_cortex-a53" >>/e
 opkg update
 action="$1"
 case "${action}" in
-ssr)
+ssr-plus)
 	opkg install luci-i18n-base-zh-cn luci-app-ssr-plus  luci-compat luci-lib-ipkg luci-i18n-base-zh-cn
 	;;
 
